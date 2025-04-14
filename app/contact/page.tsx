@@ -23,22 +23,30 @@ export default function Contact() {
     }))
   }
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setIsSubmitting(true)
-
-    // Simulate form submission
-    setTimeout(() => {
-      setIsSubmitting(false)
+  
+    try {
+      const res = await fetch("/api/send-email", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      })
+  
+      if (!res.ok) throw new Error("Email failed")
+  
       setSubmitted(true)
       setFormData({ name: "", email: "", message: "" })
-
-      // Reset success message after 5 seconds
-      setTimeout(() => {
-        setSubmitted(false)
-      }, 5000)
-    }, 1500)
+  
+      setTimeout(() => setSubmitted(false), 5000)
+    } catch (err) {
+      alert("There was an error sending your message.")
+    } finally {
+      setIsSubmitting(false)
+    }
   }
+  
 
   return (
     <main className="min-h-screen bg-purple-50 px-4 py-12 md:px-6 lg:py-16">

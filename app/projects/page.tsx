@@ -75,7 +75,7 @@ export default function Projects() {
         "this is my personal website built with next.js and tailwind css. it features a clean, minimalist design with a purple color scheme. the site includes information about me, my projects, and ways to contact me.",
       technologies: ["next.js", "react", "tailwind css"],
       imageUrl: "/website.png?height=400&width=600",
-      link: "https://github.com/kaavlu/movie-recommender",
+      link: "https://github.com/kaavlu/personal-website",
     },
   ]
 
