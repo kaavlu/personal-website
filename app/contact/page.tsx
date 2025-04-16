@@ -66,7 +66,7 @@ export default function Contact() {
               <div className="flex items-center">
                 <Phone className="mr-3 h-5 w-5 text-purple-600" />
                 <a href="tel:+8588478020" className="text-purple-700 hover:text-purple-900 hover:underline">
-                  (123) 456-7890
+                  (858) 847-8020
                 </a>
               </div>
             </div>

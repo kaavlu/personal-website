@@ -14,7 +14,7 @@ export default function Home() {
           currently working at{" "}
           <Link href="https://www.duolingo.com/" target="_blank" className="text-purple-600 underline hover:text-purple-700">
             Duolingo
-          </Link>{" "} as a software intern
+          </Link>{" "} as a software engineer
           and building{" "}
           <Link href="/projects" className="text-purple-600 underline hover:text-purple-700">
             side projects
