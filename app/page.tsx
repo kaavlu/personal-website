@@ -7,14 +7,14 @@ export default function Home() {
         <h1 className="mb-8 text-4xl font-bold tracking-tight text-purple-900 md:text-5xl">hi, i'm manav khanvilkar</h1>
 
         <p className="mb-4 text-lg text-purple-800">
-          i'm a software developer + builder trying to build startups with my friends
+          i'm a software developer + builder
         </p>
 
         <p className="mb-4 text-lg text-purple-800">
-          currently working at{" "}
+          prev working at{" "}
           <Link href="https://www.duolingo.com/" target="_blank" className="text-purple-600 underline hover:text-purple-700">
-            Duolingo
-          </Link>{" "} as a software engineer
+            duolingo
+          </Link>{" "} as a software engineering intern
           and building{" "}
           <Link href="/projects" className="text-purple-600 underline hover:text-purple-700">
             side projects
@@ -23,12 +23,8 @@ export default function Home() {
         </p>
 
         <p className="mb-4 text-lg text-purple-800">
-          previously at{" "}
-          <Link href="https://www.siemens.com/global/en.html" target="_blank" className="text-purple-600 underline hover:text-purple-700">
-            Siemens
-          </Link>{" "}
-          and{" "} currently studying cs @
-          <Link href="#" className="text-purple-600 underline hover:text-purple-700">
+          just finished studying cs @{" "}
+          <Link href="https://cse.engin.umich.edu/" target="_blank" className="text-purple-600 underline hover:text-purple-700">
             university of michigan
           </Link>
         </p>
@@ -69,7 +65,7 @@ export default function Home() {
             </svg>
             linkedin
           </Link>
-          <Link href="https://drive.google.com/file/d/1ZFAV4Z3hIWKkfhwnpfhW08460AeebgYx/view?usp=sharing" target="_blank" className="flex items-center text-purple-600 hover:text-purple-800">
+          <Link href="https://drive.google.com/file/d/1VlMG6NAJP_a5TAoP3XYTNDTFbstR8mdj/view?usp=sharing" target="_blank" className="flex items-center text-purple-600 hover:text-purple-800">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="20"
